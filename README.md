@@ -55,7 +55,7 @@ Advanced Data Access Tool: https://datasearch.globe.gov/
 
 
 - **Repository:** https://github.com/lisaml02/AoPF24
-- **Large Files/Progressive Fusion Material Available Here: https://github.com/lisaml02/AoPF24 
+- **Large Files/Progressive Fusion Material Available Here: https://github.com/lisaml02/AoP_LargeFiles
 
 
 ## Uses
@@ -162,6 +162,7 @@ loc_accuracy: Accuracy of this location within “x” meters. Units: meters (m)
 - hour_of_day: hour of day during which the observation was recorded out of 24 hours
 - month: month of year during which observation was recorded
 - year: year in which observation was recorded
+  
 
 ## Dataset Creation
 
@@ -176,10 +177,11 @@ GLOBE Observer
 
 #### Data Collection and Processing
 
-Data was cleaned and processed in Rstudio
-Renamed columns to eliminate spaces
-selected exclusively, date, time, location, and sutface condition columns
-filtered out incomplete data
+- Data was cleaned and processed in Rstudio
+- Renamed columns to eliminate spaces
+- selected exclusively, date, time, location, and sutface condition columns
+- filtered out incomplete data
+- merged satellite data obtained using the following package: https://github.com/logan-berner/LandsatTS 
 Packages used: tidyverse, dplyr, ggplot2, magick, lubridate, httr
 
 
