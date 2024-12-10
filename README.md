@@ -44,15 +44,18 @@ This data is from the GLOBE Observer Data explorer, which originally covers data
 
 
 - **Curated by:** Lisa Liubovich, American University
-- **License:** NA
+- **License:** Creative Commons 3
 
 ### Dataset Sources
-https://observer.globe.gov/get-data
-https://api.globe.gov/search/swagger-ui.html
-https://datasearch.globe.gov/
+Globe Data Homepage: https://observer.globe.gov/get-data
+
+GLOBE API: https://api.globe.gov/search/swagger-ui.html
+
+Advanced Data Access Tool: https://datasearch.globe.gov/
 
 
-- **Repository:** https://github.com/lisaml02/adoptapixelF24 
+- **Repository:** https://github.com/lisaml02/AoPF24
+- **Large Files/Progressive Fusion Material Available Here: https://github.com/lisaml02/AoPF24 
 
 
 ## Uses
